@@ -1,0 +1,24 @@
+{
+  "allPlaceholder": "Search sign",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "16b4b96ae4f-layer-0",
+      "url": "https://services9.arcgis.com/onBtmhywQHDbpPQw/arcgis/rest/services/Point_Sign2D/FeatureServer/2",
+      "name": "Point_Sign2D",
+      "placeholder": "Search sign",
+      "searchFields": [
+        "Handle",
+        "Layer",
+        "RefName"
+      ],
+      "displayField": "RefName",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "zoomScale": 50000,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    }
+  ]
+}

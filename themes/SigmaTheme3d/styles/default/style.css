@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet');
+
+.jimu-main-background {
+  background-color:#ffffff;
+}
+ .es {
+    margin-top: 0px;
+  }
+
+.jimu-title{
+  color:#ffffff;
+}
+
+.jimu-subtitle{
+  color:#ffffff;
+}
+
+.jimu-widget-onscreen-icon {
+  border: 2px solid #ffffff;
+  background-color: #ff8000;
+  border-radius: 100%;
+}
+.jimu-widget-onscreen-icon:hover{
+  background-color: #ffffff;
+}
+
+/*Una vez metido el widget*/
+.jimu-widget-placeholder {
+  background-color: #ff8000;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+}
+
+ .jimu-widget-placeholder .inner{
+  background-color: #ff8000;
+}
+
+/*Zoom más y menos*/
+.jimu-widget-zoom .esri-zoom .esri-widget{
+  background-color: #ff8000;
+  border: 2px solid #ffffff;
+  margin-bottom: 2px;
+  border-radius: 100% !important;
+}
+
+/*Home*/
+
+.jimu-widget-home {
+  background-color: transparent;
+}
+
+.jimu-widget-home .operate-node {
+  background-color: #ff8000;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+}
+
+/*Navigate*/
+.jimu-widget-navigate {
+  background-color: transparent;
+}
+
+.jimu-widget-navigate .control-mode {
+  background-color: #ff8000;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+}
+/*Compass*/
+.esri-widget--button  {
+  background-color: #ff8000;
+  border: 2px solid #ffffff;
+}
+.esri-icon-compass:before {
+color: black;
+}
+
+/*Cabecera*/
+.jimu-widget-header-controller .icon-node:first-child {
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+}
+.jimu-widget-header-controller .icon-node {
+  background-color: #ff8000;
+}
+
+.jimu-foldable-panel>.jimu-panel-title {
+  color: #ffffff;
+  background-color: #ff8000;
+ }
+
+ .jimu-widget-header-controller .container-section {
+   margin-left: auto;
+   margin-right: 2px;
+ }
+
+/*link*/
+.jimu-link:link, .jimu-link:visited {
+  color: #ffffff;
+}
+
+
+/*desplegable del widget */
+.jimu-on-screen-widget-panel> .jimu.panel-title{
+  background-color: #52ae32;
+}
+
+.jimu-btn{
+  background-color: #52ae32;
+}
+
+.jimu-btn:hover {
+  background-color: #005fb6;
+}
+
+/*Texto*/
+.jimu-main-font{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*Definir panel*/
+.jimu-foldable-panel{
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  width: 300px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.jimu-on-screen-widget-panel>.jimu-panel-title {
+  color: #ff8000;
+}
+.jimu-on-screen-widget-panel>.jimu-panel-title>.title-label {
+  color: #ffffff;
+}

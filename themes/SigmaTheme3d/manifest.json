@@ -1,0 +1,34 @@
+{
+  "name": "SigmaTheme3d",
+  "platform": "HTML3D",
+  "panels": [{
+      "name": "SigmaTheme3d",
+      "description": "This is foldable panel"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is default style",
+      "styleColor": "#ffffff"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is default layout"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "HeaderController",
+      "description": "this is theme widget controller"
+    }
+  ],
+  "version": "2.12",
+  "wabVersion": "2.12",
+  "author": "SigmaRail",
+  "description": "Hacer un tema desde otro a 3D",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

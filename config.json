@@ -1,0 +1,375 @@
+{
+  "theme": {
+    "name": "SigmaTheme3d",
+    "styles": [
+      "default"
+    ],
+    "version": "2.12",
+    "sharedTheme": {
+      "useHeader": true,
+      "useLogo": false,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#ff8000"
+    }
+  },
+  "portalUrl": "https://sigmarail.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Kenitra - Casablanca",
+  "subtitle": "Mansouria - Skhirat",
+  "keepAppState": false,
+  "logo": "images/logo.png",
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "SIGMARAIL",
+      "url": "https://www.sigma-rail.com/es/inicio/"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/SigmaTheme3d/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 70,
+          "relativeTo": "browser"
+        },
+        "version": "2.12",
+        "id": "themes_SigmaTheme3d_widgets_HeaderController_Widget_13",
+        "url": "/webappbuilder/apps/7/themes/SigmaTheme3d/widgets/HeaderController/",
+        "icon": "themes/SigmaTheme3d/widgets/HeaderController/images/icon.png",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_ZoomSlider_Widget_14",
+        "url": "/webappbuilder/apps/7/widgets/ZoomSlider/",
+        "icon": "widgets/ZoomSlider/images/icon.png",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/Home/Widget",
+        "position": {
+          "left": 10,
+          "top": 85,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_Home_Widget_15",
+        "url": "/webappbuilder/apps/7/widgets/Home/",
+        "icon": "widgets/Home/images/icon.png",
+        "name": "Home"
+      },
+      {
+        "uri": "widgets/Navigate/Widget",
+        "position": {
+          "left": 10,
+          "top": 125,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_Navigate_Widget_16",
+        "url": "/webappbuilder/apps/7/widgets/Navigate/",
+        "icon": "widgets/Navigate/images/icon.png",
+        "name": "Navigate"
+      },
+      {
+        "uri": "widgets/Compass/Widget",
+        "position": {
+          "left": 10,
+          "top": 165,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_Compass_Widget_17",
+        "url": "/webappbuilder/apps/7/widgets/Compass/",
+        "icon": "widgets/Compass/images/icon.png",
+        "name": "Compass"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_18",
+        "name": "Measurement3D",
+        "version": "2.12",
+        "closeable": true,
+        "uri": "widgets/Measurement3D/Widget",
+        "config": "configs/Measurement3D/config__18.json",
+        "url": "/webappbuilder/apps/7/widgets/Measurement3D/"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 60,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_19",
+        "name": "Search",
+        "version": "2.12",
+        "closeable": true,
+        "uri": "widgets/Search/Widget",
+        "config": "configs/Search/config__19.json",
+        "url": "/webappbuilder/apps/7/widgets/Search/"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_20",
+        "name": "LayerList",
+        "version": "2.12",
+        "closeable": true,
+        "uri": "widgets/LayerList/Widget",
+        "url": "/webappbuilder/apps/7/widgets/LayerList/"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 160,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_21",
+        "name": "Legend",
+        "version": "2.12",
+        "closeable": true,
+        "uri": "widgets/Legend/Widget",
+        "url": "/webappbuilder/apps/7/widgets/Legend/"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 210,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_22",
+        "name": "BasemapGallery",
+        "version": "2.12",
+        "closeable": true,
+        "uri": "widgets/BasemapGallery/Widget",
+        "url": "/webappbuilder/apps/7/widgets/BasemapGallery/"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 260,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_23",
+        "name": "Slides",
+        "version": "2.12",
+        "closeable": true,
+        "uri": "widgets/Slides/Widget",
+        "url": "/webappbuilder/apps/7/widgets/Slides/"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 0,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.12",
+        "id": "widgets_Coordinate_Widget_24",
+        "url": "/webappbuilder/apps/7/widgets/Coordinate/",
+        "icon": "widgets/Coordinate/images/icon.png",
+        "name": "Coordinate"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 70,
+      "right": 0,
+      "bottom": 0,
+      "zIndex": 0
+    },
+    "itemId": "0d54300ea9594450aa302f3e7058c287",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://sigmarail.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/SigmaTheme3d/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#ff8000",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "/webappbuilder/apps/7/configs/loading/images/predefined_loading_4.gif",
+      "width": 34,
+      "height": 34
+    }
+  },
+  "wabVersion": "2.12",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "configWabVersion": "2.12",
+  "titleColor": "#ffffff",
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/SigmaTheme3d/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 70,
+            "relativeTo": "browser"
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "left": 10,
+            "top": 10
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/Home/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 10,
+            "top": 85
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/Navigate/Widget",
+          "position": {
+            "left": 10,
+            "top": 125
+          },
+          "version": "2.12"
+        },
+        {
+          "uri": "widgets/Compass/Widget",
+          "position": {
+            "left": 10,
+            "top": 165
+          },
+          "version": "2.12"
+        },
+        {
+          "position": {
+            "right": 10,
+            "top": 10
+          }
+        },
+        {
+          "position": {
+            "right": 10,
+            "top": 60
+          }
+        },
+        {
+          "position": {
+            "right": 10,
+            "top": 110
+          }
+        },
+        {
+          "position": {
+            "right": 10,
+            "top": 160
+          }
+        },
+        {
+          "position": {
+            "right": 10,
+            "top": 210
+          }
+        },
+        {
+          "position": {
+            "right": 10,
+            "top": 260
+          }
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 17,
+            "relativeTo": "map"
+          },
+          "version": "2.12"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 70,
+        "right": 0,
+        "bottom": 0,
+        "zIndex": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/SigmaTheme3d/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "logoLink": ""
+}

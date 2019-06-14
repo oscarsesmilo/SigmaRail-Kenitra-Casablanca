@@ -1,0 +1,124 @@
+{
+  "widgetOnScreen": {
+    "widgets": [{
+      "uri": "themes/SigmaTheme3d/widgets/HeaderController/Widget",
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "height": 70,
+        "relativeTo": "browser"
+      },
+      "version": "2.12"
+    }, {
+      "uri": "widgets/ZoomSlider/Widget",
+      "position": {
+        "left": 10,
+        "top": 10
+      },
+      "version": "2.12"
+    }, {
+      "uri": "widgets/Home/Widget",
+      "inPanel": false,
+      "position": {
+        "left": 10,
+        "top": 85
+      },
+      "version": "2.12"
+    },{
+      "uri": "widgets/Navigate/Widget",
+      "position": {
+        "left": 10,
+        "top": 125
+      },
+      "version": "2.12"
+    },{
+      "uri": "widgets/Compass/Widget",
+      "position": {
+        "left": 10,
+        "top": 165
+      },
+      "version": "2.12"
+    },{
+      "position": {
+        "right": 10,
+        "top": 10
+      }
+    }, {
+      "position": {
+        "right": 10,
+        "top": 60
+      }
+    },{
+      "position": {
+        "right": 10,
+        "top": 110
+      }
+    }, {
+      "position": {
+        "right": 10,
+        "top": 160
+      }
+    }, {
+      "position": {
+        "right": 10,
+        "top": 210
+      }
+    }, {
+      "position": {
+        "right": 10,
+        "top": 260
+      }
+    }, {
+      "uri": "widgets/Coordinate/Widget",
+      "position": {
+        "left": 0,
+        "bottom": 10
+      },
+      "version": "2.12"
+    }]
+  },
+
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 70,
+      "right": 0,
+      "bottom": 0,
+      "zIndex": 0
+    }
+  },
+
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/SigmaTheme3d/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5
+      }
+    }
+  },
+
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        }
+      }
+    }
+  }
+}
